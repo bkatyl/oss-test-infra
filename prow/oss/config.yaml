@@ -15,6 +15,7 @@
 tide:
   merge_method:
     GoogleCloudPlatform/compute-daisy: squash
+    GoogleCloudPlatform/compute-image-windows: squash
     GoogleCloudPlatform/guest-agent: squash
     GoogleCloudPlatform/guest-configs: squash
     GoogleCloudPlatform/guest-diskexpand: squash
@@ -36,6 +37,7 @@ tide:
   queries:
   - repos:
     - GoogleCloudPlatform/compute-daisy
+    - GoogleCloudPlatform/compute-image-windows
     - GoogleCloudPlatform/guest-agent
     - GoogleCloudPlatform/guest-configs
     - GoogleCloudPlatform/guest-diskexpand
